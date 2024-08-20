@@ -1,0 +1,101 @@
+*{
+  margin:0;
+  padding: 0;
+  /* pura document hi center align ho jyga*/
+  text-align: center;
+  background-color: #EDC994;
+}
+
+h1{
+  background-color: #081b31;
+  color: rgb(228, 216, 193);
+  height: 5rem;
+  /*text ko height aur breadth dono k hisab se center me laane k lye
+  jitna height h utna line height de do*/
+  line-height: 5rem;
+
+  
+  
+}
+
+.choice{
+  height: 165px;
+  width: 165px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.choice:hover{
+  background-color: #081b31 ;
+  cursor: pointer;
+}
+
+img{
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.choices{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 5rem;
+
+}
+
+.score-board{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin-top: 3rem;
+  gap: 5rem;
+}
+
+#user-score,#computer-score{
+  font-size: 4rem;
+}
+
+.msg-container{
+  margin-top: 5rem;
+}
+
+#msg{
+  background-color: #081b31;
+  color:  #ffc300;
+  font-size: 2rem;
+  margin-top: 5rem;
+  display: inline;
+  padding: 1rem;
+  border-radius: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+#msg:hover{
+  background-color: #530000 ;
+  cursor: pointer;
+}
+
+.reset-container {
+  margin-top: 5rem;
+}
+
+#reset-btn {
+  font-family: Georgia, serif;
+  background-color: #0d5d56; 
+  color: #ceaaaa;
+  font-size: 1.5rem;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#reset-btn:hover {
+  background-color: #60042d; /* Lighter gold on hover */
+}
